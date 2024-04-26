@@ -21,7 +21,7 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Engineer
+    - title: Research Engineer
       institution: Advanced Research Center, KKCompany, Taiwan
       year: 2023
     - title: Research Assistant
@@ -49,18 +49,18 @@
 #   type: time_table
 #   contents:
 #     - year: 1921
-#       items: 
-#         - Nobel Prize in Physics 
+#       items:
+#         - Nobel Prize in Physics
 #         - Matteucci Medal
 #     - year: 2029
-#       items: 
+#       items:
 #         - Max Planck Medal
 
 - title: Research Interests
   type: nested_list
   contents:
     - title: AI Music
-      items: 
+      items:
         - Symbolic Music Generation
     # - title: Topic 2.
     #   items:
