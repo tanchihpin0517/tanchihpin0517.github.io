@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a Ph.D. student, advised by <a href='https://affige.github.io/'>Yi-Hsuan Yang</a>, in the Graduate Institute of Communication Engineering at <a href='https://www.ntu.edu.tw/'>National Taiwan University</a>, and also a research scientist at <a href='https://www.kkcompany.com/en-us'>KKCompany</a>.
-My research interests are Musc Information Retrieval/Research (MIR) related topics, including music generation, music analysis, and deep learning applications on music.
+My research interests are Music Information Retrieval/Research (MIR) related topics, including music generation, music analysis, and deep learning applications on music.
 I am particularly interested in cover song generation and symbolic music generation.
 My goal is to develope algorithms that can understand music and help musician to creating wonderful pieces. I am also interested in drawing these research ideas to real-world applications. For example, <a href='https://tanchihpin0517.github.io/PiCoGen/'>PiCoGen</a> is a cover song generation system that is completely open-sourced and availible for everyone to use.
 <!-- My research interests include computer vision, machine learning, and deep learning. I am particularly interested in developing algorithms that can understand and generate visual content. I am also interested in applying these algorithms to solve real-world problems. -->
