@@ -24,12 +24,12 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: adorable_cats.jpg
           filters:
-            brightness: 1.0
+            brightness: 0.3
           size: cover
           position: center
-          parallax: false
+          parallax: true
   - block: markdown
     content:
       title: '📚 My Research'
