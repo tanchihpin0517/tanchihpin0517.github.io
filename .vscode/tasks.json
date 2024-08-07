@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Hugo Server",
+            "type": "shell",
+            "command": "hugo server -D",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Runs the Hugo server for development"
+        },
+        {
+            "label": "Import Publications",
+            "type": "shell",
+            "command": "academic import content/publication.bib content/publication/ --compact",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Import publications from bibtex file"
+        }
+    ]
+}
