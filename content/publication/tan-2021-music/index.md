@@ -8,7 +8,7 @@ authors:
 date: '2021-01-01'
 publishDate: '2024-08-07T13:15:56.419330Z'
 publication_types:
-- article-journal
+- paper-conference
 publication: '*Proc. International Society for Music Information Retrieval Conference
   (ISMIR)*'
 
