@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: https://raw.githubusercontent.com/tanchihpin0517/CV/master/Resume_Chih-Pin.pdf
+        url: uploads/CV.pdf
     design:
       css_class: dark
       background:
