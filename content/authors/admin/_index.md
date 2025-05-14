@@ -52,10 +52,10 @@ interests:
   - Automatic Music Generation
 
 education:
-  # - area: PhD Artificial Intelligence
-  #   institution: Stanford University
-  #   date_start: 2016-01-01
-  #   date_end: 2020-12-31
+  - area: Ph.D.
+    institution: Graduate Institute of Communication Engineering, National Taiwan University, Taiwan
+    date_start: 2023-09-01
+    date_end: ''
   #   summary: |
   #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
   #   button:
@@ -84,12 +84,20 @@ education:
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
     #   - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
+  - position: Research Assistant
+    company_name: Institute of Information Science Academia Sinica, Taiwan
+    company_url: ''
+    company_logo: ''
+    date_start: 2025-04-24
+    date_end: ''
+    summary: |
+      Adviced by Li Su
   - position: Research Scientist
     company_name: KKCompany, Taiwan
     company_url: ''
     company_logo: ''
     date_start: 2023-03-18
-    date_end: ''
+    date_end: 2025-04-23
     summary: |2-
       Engage in MIR-related research topics
     #   Responsibilities include:
@@ -196,6 +204,7 @@ awards:
 
 ## About Me
 
-I am a Ph.D. student, advised by <a href='https://affige.github.io/'>Yi-Hsuan Yang</a>, in the Graduate Institute of Communication Engineering at <a href='https://www.ntu.edu.tw/'>National Taiwan University</a>, and also a research scientist at <a href='https://www.kkcompany.com/en-us'>KKCompany</a>.
+I am a Ph.D. student, advised by <a href='https://affige.github.io/'>Yi-Hsuan Yang</a>, in the Graduate Institute of Communication Engineering at <a href='https://www.ntu.edu.tw/'>National Taiwan University</a>, and also a research assistant at <a href='https://www.iis.sinica.edu.tw/en/index.html'>Institute of Information Science
+Academia Sinica</a>.
 My research interests are Music Information Retrieval/Research (MIR) related topics, including music generation, music analysis, and deep learning applications on music.
 
