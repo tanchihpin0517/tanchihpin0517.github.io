@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Chih-Pin Tan"
 author_profile: true
 redirect_from: 
   - /about/
