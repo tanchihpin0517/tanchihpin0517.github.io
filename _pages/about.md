@@ -1,11 +1,13 @@
 ---
 permalink: /
-title: "Chih-Pin Tan"
+# title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+# About Me
 
 I am a Ph.D. student, advised by <a href='https://affige.github.io/'>Yi-Hsuan Yang</a>, in the Graduate Institute of Communication Engineering at <a href='https://www.ntu.edu.tw/'>National Taiwan University</a>, and also a research assistant at <a href='https://www.iis.sinica.edu.tw/en/index.html'>Institute of Information Science
 Academia Sinica</a>.
