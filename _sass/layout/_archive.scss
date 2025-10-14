@@ -39,6 +39,16 @@
   }
 }
 
+.archive__item-authors {
+  margin: 0.5em 0 0.3em 0;
+  font-size: $type-size-5;
+  color: var(--global-text-color);
+  
+  .author-me {
+    font-weight: 700;
+  }
+}
+
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;

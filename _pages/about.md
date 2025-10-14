@@ -1,17 +1,77 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am a Ph.D. student, advised by <a href='https://affige.github.io/'>Yi-Hsuan Yang</a>, in the Graduate Institute of Communication Engineering at <a href='https://www.ntu.edu.tw/'>National Taiwan University</a>, and also a research assistant at <a href='https://www.iis.sinica.edu.tw/en/index.html'>Institute of Information Science
+Academia Sinica</a>.
+My research interests are Music Information Retrieval/Research (MIR) related topics, including music generation, music analysis, and deep learning applications on music.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+## Recent News
 
-A data-driven personal website
+<div class="news-section">
+{% assign news_items = site.data.news | slice: 0, 10 %}
+{% for item in news_items %}
+  <div class="news-item">
+    <span class="news-date">{{ item.date }}</span>
+    <span class="news-description">
+      {% if item.link %}
+        <a href="{{ item.link }}">{{ item.description | markdownify | remove: '<p>' | remove: '</p>' }}</a>
+      {% else %}
+        {{ item.description | markdownify | remove: '<p>' | remove: '</p>' }}
+      {% endif %}
+    </span>
+  </div>
+{% endfor %}
+</div>
+
+## Selected Publications
+
+<div class="selected-publications">
+{% assign selected_pubs = site.publications | where: "selected", true | sort: "date" | reverse %}
+{% for pub in selected_pubs %}
+  <div class="pub-item">
+    <div class="pub-title">{{ pub.title }}</div>
+    {% if pub.authors %}
+      <div class="pub-authors">
+        {% assign author_list = pub.authors | split: ", " %}
+        {% for author in author_list %}
+          {% if author == site.author.name or author contains "Chih-Pin Tan" %}
+            <span class="author-me">{{ author }}</span>{% unless forloop.last %}, {% endunless %}
+          {% else %}
+            {{ author }}{% unless forloop.last %}, {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+    <div class="pub-meta">
+      <span class="pub-venue">{{ pub.venue }}</span>
+      <span class="pub-year">{{ pub.date | date: "%Y" }}</span>
+    </div>
+    <div class="pub-links">
+      {% if pub.paperurl %}
+        <a href="{{ pub.paperurl }}" class="pub-link"><i class="fas fa-file-pdf"></i> Paper</a>
+      {% endif %}
+      {% if pub.demo %}
+        <a href="{{ pub.demo }}" class="pub-link"><i class="fas fa-globe"></i> Demo</a>
+      {% endif %}
+      {% if pub.code %}
+        <a href="{{ pub.code }}" class="pub-link"><i class="fab fa-github"></i> Code</a>
+      {% endif %}
+      {% if pub.slides %}
+        <a href="{{ pub.slides }}" class="pub-link"><i class="fas fa-file-powerpoint"></i> Slides</a>
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}
+</div>
+
+
+<!-- A data-driven personal website
 ======
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
@@ -53,4 +113,4 @@ Example: editing a Markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->

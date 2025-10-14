@@ -13,10 +13,14 @@ body {
   background-color: var(--global-bg-color);
 
   margin: 0;
-  padding: $masthead-height 0 0;
+  padding: 0;
   padding-bottom: 9em;
   font-family: $global-font-family;
   line-height: 1.5;
+
+  @media screen and (max-width: 1023px) {
+    padding-top: $masthead-height;
+  }
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */

@@ -21,7 +21,7 @@
     height: 100vh;
     overflow-y: auto;               // Add scrollbar if the sidebar is too long
     position: fixed;
-    padding-top: $masthead-height;
+    padding-top: 1em;
   }
 
   @include breakpoint($large) {
@@ -130,6 +130,21 @@
 .sidebar .author__name {
   font-family: $sans-serif;
   font-size: $type-size-5;
+}
+
+.author__name-chinese {
+  margin: 0;
+  margin-top: 0.3em;
+  
+  @include breakpoint($large) {
+    margin-bottom: 10px;
+  }
+}
+.sidebar .author__name-chinese {
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+  color: var(--global-text-color);
+  opacity: 0.8;
 }
 
 .sidebar .author__desktop {
@@ -259,6 +274,47 @@
 
     &:hover {
       text-decoration: underline;
+    }
+  }
+}
+
+/*
+   Sidebar navigation
+   ========================================================================== */
+
+.sidebar__nav {
+  display: none;
+  margin-top: 2em;
+  padding-top: 1.5em;
+  border-top: 1px solid var(--global-border-color);
+
+  @media screen and (min-width: 1024px) {
+    display: block;
+  }
+}
+
+.sidebar__nav-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.sidebar__nav-item {
+  margin-bottom: 0.5em;
+
+  a {
+    display: block;
+    padding: 0.5em 0;
+    color: inherit;
+    font-size: $type-size-5;
+    font-family: $sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      color: var(--global-link-color);
+      padding-left: 0.5em;
     }
   }
 }

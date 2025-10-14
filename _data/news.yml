@@ -1,0 +1,18 @@
+# News items for the homepage
+# Add new items at the top of the list
+# Format:
+#   - date: "Month Year" or "YYYY-MM-DD"
+#     description: "Your news item description (supports **bold** markdown)"
+#     link: "optional url" (can be omitted if no link)
+
+- date: "Oct. 2025"
+  description: "Our paper \"Segment-Factorized Full-Song Generation on Symbolic Piano Music\" led by Ping-Yi Chen, has been accepted to **NeurIPS 2025 Workshop on AI for Music**!"
+
+- date: "Nov. 2024"
+  description: "Our paper \"PiCoGen2: Piano cover generation with transfer learning approach and weakly\" has been accepted to **ISMIR 2025**! ([Paper](https://arxiv.org/abs/2408.01551),[Demo](https://tanchihpin0517.github.io/PiCoGen/picogen2.html))"
+  
+# - date: "September 2025"
+#   description: "Joined Institute of Information Science, Academia Sinica as a research assistant"
+
+# Add your news items above this line
+
