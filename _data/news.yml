@@ -8,8 +8,8 @@
 - date: "Oct. 2025"
   description: "Our paper \"Segment-Factorized Full-Song Generation on Symbolic Piano Music\" led by Ping-Yi Chen, has been accepted to **NeurIPS 2025 Workshop on AI for Music**!"
 
-- date: "Aug. 2025"
-  description: "Our paper \"LargeSHS: A large-scale dataset of music adaptation\" has been accepted to **ISMIR 2025 Late Breaking Demo**! ([Paper](https://ismir2025program.ismir.net/lbd_450.html),[Demo](https://github.com/tanchihpin0517/LargeSHS))"
+# - date: "Aug. 2025"
+#   description: "Our paper \"LargeSHS: A large-scale dataset of music adaptation\" has been accepted to **ISMIR 2025 Late Breaking Demo**! ([Paper](https://ismir2025program.ismir.net/lbd_450.html),[Demo](https://github.com/tanchihpin0517/LargeSHS))"
 
 - date: "Nov. 2024"
   description: "Our paper \"PiCoGen2: Piano cover generation with transfer learning approach and weakly\" has been accepted to **ISMIR 2025**! ([Paper](https://arxiv.org/abs/2408.01551),[Demo](https://tanchihpin0517.github.io/PiCoGen/picogen2.html))"
